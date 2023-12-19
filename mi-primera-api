@@ -1,0 +1,9 @@
+GET /allitems: Gibt Alle Elemente der Shopping Liste zurück
+
+GET /itembyid/{itemdId}: Gibt ein einzelnes Elemnt zurück. Parámetro: - Einzigartige Id des ElementsitemId
+
+POST /createitem: um einen neuen Artikel in der Einkaufsliste zu erstellen.
+
+DELETE /deleteitem/{itemId}: um einen Artikel aus der Einkaufsliste zu entfernen.
+
+PUT /updateitem/{itemId}: Aktualisieren Sie einen Artikel in der Einkaufsliste.
